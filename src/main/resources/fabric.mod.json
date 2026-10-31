@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "bazaarflipper",
+	"version": "${version}",
+	"name": "Bazaar Flipper",
+	"description": "Finds the most profitable Hypixel SkyBlock Bazaar flips (order flips, crafts, Forge, Bazaar<->NPC) per hour, using only the official Hypixel API, with built-in protection against price manipulation.",
+	"authors": ["Bazaar Flipper contributors"],
+	"license": "Apache-2.0",
+	"contact": {
+		"sources": "https://github.com/PvpGrief/hypixel-skyblock"
+	},
+	"icon": "assets/bazaarflipper/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.bazaarflipper.client.BazaarFlipperClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
