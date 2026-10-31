@@ -15,7 +15,7 @@ right now**, and shows them in an in-game window, on a HUD, or in chat.
 
 ## Install
 
-1. Install [Fabric Loader](https://fabricmc.net/use/) ≥ 0.20.1 for Minecraft **26.2**, and Java **25**.
+1. Install [Fabric Loader](https://fabricmc.net/use/) ≥ 0.19.5 for Minecraft **26.2**, and Java **25**.
 2. Put [Fabric API](https://modrinth.com/mod/fabric-api) (`0.161.0+26.2` or newer) and `bazaar-flipper-1.0.0.jar` into `.minecraft/mods`.
 3. Start the game, join Hypixel, and press **B** (or type `/bzflip`).
 
