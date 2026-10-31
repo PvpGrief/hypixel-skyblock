@@ -49,7 +49,11 @@ test {
 }
 
 jar {
+	// Resolve the name while configuring: the configuration cache forbids touching `project` at execution time.
+	def archivesName = base.archivesName.get()
+	inputs.property "archivesName", archivesName
+
 	from("LICENSE") {
-		rename { "${it}_${project.base.archivesName.get()}" }
+		rename { "${it}_${archivesName}" }
 	}
 }
